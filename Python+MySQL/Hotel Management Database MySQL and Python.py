@@ -1,3 +1,4 @@
+"""Python program with the help of mysql_connector consists of hotel management report"""
 import mysql.connector
 
 # GLOBAL VARIABLES DECLARATION
