@@ -40,7 +40,7 @@ audio = r.recognize_google(audio)
 
 
 
-# condition to check if the input is mail or female
+# condition to check if the input is male or female
 if audio == "Female".lower():
     engine.setProperty('voice', voices[1].id)
 else:
@@ -50,7 +50,7 @@ else:
 data = json.load(open("E:\pythonProjects2\dictionary_compact.json"))
 
 
-#dictionary function where the main magic happens
+#main dictionary function
 def dictionary(word):
     if word in data:
         print(data[word])
