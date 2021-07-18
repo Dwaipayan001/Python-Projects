@@ -101,6 +101,7 @@ while True:
 
     else:
         engine.say("I CAN'T RECOGNIZE YOU SIR ! PLEASE TRY AGAIN.")
+        engine.runAndWait()
 
 
 
