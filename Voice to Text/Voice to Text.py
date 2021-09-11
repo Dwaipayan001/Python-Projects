@@ -1,3 +1,8 @@
+"""A simple Voice to text program where using the speech_recognition module we will open Notepad using our voice and a text file in writing mode , then using the SR module we will say 
+something, the voice input automatically gets converted into string so we will just use that to write what has been said into the opened text file"""
+
+
+
 import pyttsx3
 import speech_recognition as sr
 import os
