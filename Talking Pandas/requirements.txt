@@ -1,0 +1,16 @@
+comtypes==1.1.10
+cycler==0.10.0
+kiwisolver==1.3.2
+matplotlib==3.4.3
+numpy==1.21.2
+pandas==1.3.3
+Pillow==8.4.0
+PyAudio @ file:///E:/Talking%20Dataframe/PyAudio-0.2.11-cp39-cp39-win_amd64.whl
+pyparsing==2.4.7
+pypiwin32==223
+python-dateutil==2.8.2
+pyttsx3==2.90
+pytz==2021.3
+pywin32==302
+six==1.16.0
+SpeechRecognition==3.8.1
